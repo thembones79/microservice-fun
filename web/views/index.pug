@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+    body
+        .column.is-one-third
+            h1.is-size-1 Newsletter
+            form(action="/newsletter" method="post")
+                .field
+                    label.label E-mail
+                    .control
+                        input(type="email" name="email" class="input" placeholder="michal@szumnarski.com")
+                .field.is-grouped
+                    .control
+                        button(type="submit" class="button is-link") Sign up!

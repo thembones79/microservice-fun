@@ -1,0 +1,5 @@
+root@kali:~/Git/microservice-fun/mailer# sudo dockerd &sudo dockerd &
+
+✘ ⚡ root@kali  ~/Git/microservice-fun  docker-compose up --build
+
+
